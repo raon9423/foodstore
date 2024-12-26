@@ -1,0 +1,78 @@
+﻿.tutorial {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background:#ccc;
+}
+.modal-cart-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+
+.modal-cart-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: #000;
+    text-align: center;
+}
+
+.modal-cart-body {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 16px;
+}
+
+ .modal-cart-body a {
+        padding: 10px;
+        color: #000;
+        font-size: 20px;
+        border-radius: 50%;
+        border: 1px solid #5cb85c;
+        text-decoration: none;
+    }
+
+   .modal-cart-body a:hover {
+            cursor: pointer;
+        }

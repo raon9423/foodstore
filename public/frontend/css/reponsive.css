@@ -1,0 +1,135 @@
+﻿/* pc */
+
+/* mobile tablet */
+@media (max-width:63.9375em) {
+}
+
+@media (min-width: 46.25em ) and (max-width: 63.9375em ) {
+    .wrapper-img .carousel-br img {
+        width: calc(100%/2);
+    }
+}
+/* mobile */
+@media (max-width: 46.1875em ) {
+    .wrapper-img .carousel-br img {
+        width: 100%;
+    }
+
+    .groupimg .groupimg-left, .groupimg-right {
+        display: none;
+    }
+
+    .groupcate .listgroup a {
+        width: 16.6667%;
+    }
+
+    .grid__row .grid__column-2-5 {
+        width: 50%;
+    }
+
+    .nav-item .menu-listcate1, .nav-news span {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .header-main .header-hotline {
+        display: none;
+    }
+
+    .header-main {
+        flex-wrap: wrap;
+    }
+
+        .header-main .header-search, .header__cart {
+        }
+
+        .header-main .header-logo {
+            width: 45%;
+        }
+
+        .header-main .hotline1 {
+            display: block;
+        }
+
+        .header-main .header-hotline {
+            min-width: 195px;
+            margin-left: 10px;
+            margin-right: -15px;
+            margin-bottom: 10px;
+        }
+
+    .header-hotline .phone span {
+        font-size: 12px;
+    }
+
+    .header-hotline .phone a {
+        font-size: 1.6rem;
+    }
+
+    .home-filter .home-filter__btn {
+        display: none;
+    }
+
+    .header-main .header-search {
+        width: 100%;
+    }
+
+    .apptop, .app__container .containt-img {
+        display: none;
+    }
+
+    .header__cart .header__cart-list {
+        width: 350px;
+        right: -15px;
+    }
+
+        .header__cart .header__cart-list::after {
+            right: 69px;
+        }
+
+    .modal-help .modal-contents {
+        width: 92%;
+    }
+
+    /* gioithieu */
+    .content-text .img-introduce img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* huong dan */
+    .grid .content-help {
+        padding: 10px;
+    }
+
+    .desc-help .img-help img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-item .menu-listcate {
+        display: none;
+    }
+
+    .nav-item .menu-listcate1 {
+        display: block;
+    }
+
+    .listcate-item .listcate-item__link {
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+/* .botleft img {
+    max-width: 390px;
+    
+}
+.botright img {
+    max-width: 100%;
+}
+.app__container .containt-img {
+    display: block;
+}
+} */
